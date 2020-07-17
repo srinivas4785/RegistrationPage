@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 10px;
+}
+body{
+  background:url(../assets/royal\ enfield.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 100px auto;
+  text-align: center;
+  width: 750px;
+  color:black;
+  font-size: 20px;
+  padding: 3rem;
+  text-shadow: rgb(149, 185, 182);
+  -webkit-box-shadow: 0px -4px 49px 49px rgba(191,178,232,1);
+  -moz-box-shadow: 0px -4px 49px 49px rgb(24, 24, 24);
+  box-shadow: 0px -4px 49px 49px rgb(25, 25, 26);
+border-radius: 60px;
+}
+form{
+  text-align: center;
+  padding-bottom: 10px;
+}
+.sri{
+  padding-bottom: 30px;
+  font-family: sans-serif;
+  display: inline-block;
+  width: 160px;
+  height: 30px;
+  font-weight: bolder;
+  color: rgb(241, 245, 207);
+}
+fieldset{
+  text-align: center;
+}
+.sree{
+  width: 200px;
+  padding: 10px;
+  background-color: moccasin;
+  border-radius: 10px;
+}
+.new{
+  background-color: rgb(144, 238, 235);
+
+}
+.st{
+  padding: 2rem;
+  transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  
+}
+.reg{
+  font-size:30px;
+  color: rgba(241, 252, 90, 0.986);
+  border: px black double;
+  background-image: linear-gradient( rgb(70, 65, 65),rgb(155, 155, 248));
+  border-radius: 10px;
+}
+.new:hover{
+  color: black;
+  background-color: rgb(243, 247, 34);
+}
+.sree:hover{
+  color: rgb(15, 15, 15);
+  background-color: turquoise;
+}
+.sri:hover{
+  color: rgb(15, 15, 15);
+  font-size: 20px;
+}
