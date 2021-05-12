@@ -1,25 +1,12 @@
-function myfunction(){
-    if(document.mymain.fname.value == ""){
-        alert("please give your first name");
-        document.mymain.fname.focus();
-        return false;
-        
+var selector = document.getElementById("bikeselector");
+var bikeProfile = document.getElementById("bikeProfile");
+
+selector.addEventListener("change", () => {
+    console.log('new value ', selector.value);
+    if(selector.value == "Royal Enfield Bullet Trials."){
+        bikeProfile.src = "assets/dukebike.jfif";
     }
-    if(document.mymain.lname.value == ""){
-        alert("please give your last name");
-        document.mymain.lname.focus();
-        return false;
+    else{
+        bikeProfile.src = "assets/royal enfield.jpg";
     }
-    if(document.mymain.number.value == ""){
-        alert("please give your number");
-        document.mymain.number.focus();
-        return false;
-    }
-    if(document.mymain.email.value == ""){
-        alert("please give your email");
-        document.mymain.email.focus();
-        return false;
-    }
-      return (true);
-        
-}
+})

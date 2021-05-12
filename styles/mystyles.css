@@ -30,8 +30,9 @@ body {
     font-size: 20px;
     padding-top : 25px;
   }
-  label{
+  .audio{
     font-size: 20px;
+    text-align: center;
   }
   select{
     background-image: linear-gradient(rgb(252, 243, 117) , rgb(250, 131, 101));
@@ -70,14 +71,14 @@ body {
  }
  ul li a{
    text-decoration: none;
-   color: whitesmoke;
+   color: rgb(207, 241, 228);
    padding: 5px 20px;
    border: 1px solid;
    margin-right: 15px;
    margin-bottom: 15px;
-   transition: o.1 s ease;
+   
  }
  ul li a:hover{
-   background-color:white;
+   background-color:rgb(205, 246, 252);
    color:black;
  }
