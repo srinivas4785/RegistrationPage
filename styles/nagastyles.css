@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.frst,.secnd,.thrd {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+.h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(red, green, blue, alpha);
+    text-align: center;
+}
+.p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(red, rgb(238, 252, 44), blue, alpha);
+    text-align: center;
+}
+.frst{
+    animation: simple1 10s infinite;
+}
+.secnd{
+    animation: simple2 10s infinite;
+}
+.thrd{
+    animation: simple3 10s infinite;
+}
+
+@keyframes simple1{
+            0%{opacity: 1;}
+            25%{opacity: 0;}
+            50%{opacity: 0;}
+            75%{opacity: 1;}
+            100%{opacity: 0;}   
+}
+@keyframes simple2{
+
+        0%{opacity: 0;}
+        25%{opacity: 1;}
+        50%{opacity: 0;}
+        75%{opacity: 0;}
+        100%{opacity: 1;}   
+}
+@keyframes simple3{
+
+        0%{opacity: 0;}
+        25%{opacity: 0;}
+        50%{opacity: 1;}
+        75%{opacity: 0;}
+        100%{opacity: 0;}   
+}
+
